@@ -1,0 +1,72 @@
+
+  <body>
+      <h3><a href="https://github.com/CS-Samuel/e_commerce_demo">Click Here for Source Code</a></h3>
+  <div id="top-bar" class="container">
+    <div class="row">
+      <div class="span4">
+        <form >
+          <input type="text" input id="search_field" onkeypress="search_func(event)" Placeholder="Search eg. Chocolate" style="background-color:aliceblue; color:black;">
+        </form>
+        <a href="/candy_shop/aboutPage"> <img src="https://samuelweems.com/candy_shop/themes/images/logo.png" style= "height:50px;" alt=""></a>
+      </div>
+      <div class="span8">
+        <div class="account pull-right">
+          <ul class="user-menu">			
+            <nav id = topMenu>
+            <li><a href="#">My Account</a></li>
+            <li><a href="cart.html">Your Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>					
+            <li><a href="register.html">Login</a></li>		
+          </nav>
+         <h4> <nav id = "loginStatus">Welcome Guest!</nav>	</h4>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div id="wrapper" class="container">
+    <section class="navbar main-menu">
+      <div class="navbar-inner main-menu">		
+        
+        <nav id="menu" class="pull-right">
+          <ul> <li><a href="./products.html">PlaceHolder1</a></li>
+          
+            <li><a href="./products.html">PlaceHolder2</a>			
+              <ul>
+                <li><a href="./products.html">Individually Wrapped</a></li>									
+                <li><a href="./products.html">Unwrapped Loose</a></li>
+            </li>				
+          
+            <!-- <li><a href="./products.html">Best Value</a>
+              <ul>									
+                <li><a href="./products.html">Bulk Candy Offers</a></li>
+                <li><a href="./products.html">Current Specials</a></li>
+                
+              </ul>
+            </li>							 -->
+    
+           
+          </ul>
+        </nav> 
+       
+      </div>
+   
+    </section>
+
+    <script type = "text/javascript">
+    function search_func(e){
+      search_field = document.getElementById("search_field").value;
+      if (e.keyCode === 13){
+        e.preventDefault();
+        window.location='https://samuelweems.com/candy_shop/browsePage/search/' + search_field + "/offset/0";
+      }
+
+      return false;
+
+    }
+    
+    </script>
+
+  
