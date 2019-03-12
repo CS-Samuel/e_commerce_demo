@@ -1,0 +1,46 @@
+Array
+(
+    [0] => Array
+        (
+            [type] => post
+            [url] => https://kidsnvans.fun/register
+        )
+
+    [1] => Array
+        (
+            [type] => post
+            [url] => https://kidsnvans.fun/login
+        )
+
+    [2] => Array
+        (
+            [type] => get
+            [url] => https://kidsnvans.fun/categories
+        )
+
+    [3] => Array
+        (
+            [type] => get
+            [url] => https://kidsnvans.fun/search
+        )
+
+    [4] => Array
+        (
+            [type] => get
+            [url] => https://kidsnvans.fun/browse
+        )
+
+    [5] => Array
+        (
+            [type] => post
+            [url] => https://kidsnvans.fun/fileUpload
+        )
+
+    [request_parts] => Array
+        (
+        )
+
+    [success] => 1
+)
+
+
